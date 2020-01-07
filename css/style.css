@@ -882,10 +882,11 @@ h3 {
 
 /* line 16, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 18px 0;
+
   background: #fff;
-  background: transparent;
-  padding: 25px 150px;
+/*
+background: transparent; 
+  padding: 25px 150px;*/
 }
 
 /* line 20, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
@@ -1090,7 +1091,7 @@ h3 {
 
 /* line 147, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  /*color: #fff;*/
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -9335,6 +9336,10 @@ h6 {
 /*# sourceMappingURL=style.css.map */
 
 
+.container-fluid{max-width: 1140px;}
+.maxw100{max-width: 100%;}
+
+
 button.slick-next, button.slick-next:hover {
   position: absolute;
   top: 41%;
@@ -9373,28 +9378,7 @@ button.slick-prev:hover {
 /* Icons */
 /* Arrows */
 .slick-prev,
-.slick-next
-{
-    font-size: 0;
-    line-height: 0;
-
-    position: absolute;
-    top: 50%;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    padding: 0;
-
-    cursor: pointer;
-
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
-}
+.slick-next{font-size: 0;line-height: 0;position: absolute;top: 50%;display: block; width: 20px; height: 20px; margin-top: -10px; padding: 0; cursor: pointer; color: transparent; border: none; outline: none; background: transparent;}
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -9468,3 +9452,18 @@ button.slick-prev:hover {
     content: '';
 }
 
+
+.topNav{background:#F91842;}
+.topNav nav li{  display: inline-block; position: relative;  margin: 5px 10px;}
+
+.topNav nav li a {
+    color:#fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    
+    position: relative;
+    text-transform: capitalize;
+}
