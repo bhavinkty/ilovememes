@@ -917,21 +917,21 @@ background: transparent;
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 16, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 16, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 20px 20px;
+   /*  padding: 20px 20px; */
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 16, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
   }
 }
 
@@ -1051,16 +1051,14 @@ background: transparent;
 /* line 112, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#F91842+0,fd8e5e+100 */
-  background: #F91842;
+  background: #1F1F1F;
+  display: inline-block;
   font-family: "Raleway", sans-serif;
-  padding: 15px 40px;
+  padding: 6px 40px;
   font-size: 14px;
   font-weight: 600;
   border: 1px solid transparent;
   color: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
